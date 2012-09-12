@@ -29,6 +29,9 @@ namespace TestProjRef
 			{
 				button.Text = string.Format("{0} clicks!", count++);
 			};
+
+
+			Lib1.SomeClassToo.DoSmth();
 		}
 	}
 }

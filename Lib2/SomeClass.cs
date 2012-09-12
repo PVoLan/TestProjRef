@@ -13,8 +13,16 @@ using Android.Widget;
 
 namespace Lib2
 {
-	class SomeClass
+	public class SomeClass
 	{
+		public static void DoSmth()
+		{
+#if DEBUG
+			Console.WriteLine ("Lib2.SomeClass.DoSmth Debug mode");
+#else
+			Console.WriteLine ("Lib2.SomeClass.DoSmth Release mode");
+#endif
+		}
 	}
 }
 

@@ -13,8 +13,12 @@ using Android.Widget;
 
 namespace Lib1
 {
-	class SomeClassToo
+	public class SomeClassToo
 	{
+		public static void DoSmth()
+		{
+			Lib2.SomeClass.DoSmth();
+		}
 	}
 }
 
